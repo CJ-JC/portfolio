@@ -1,5 +1,6 @@
 import { BriefcaseBusiness, Home, Mail, Moon, Sun, User } from "lucide-react";
 import React, { useEffect, useState } from "react";
+import { useParams, useSearchParams } from "react-router-dom";
 
 const Navbar = ({ theme, toggleTheme, themeIcon, colorIconTheme }) => {
     const [navbarColor, setNavbarcolor] = useState("bg-black");

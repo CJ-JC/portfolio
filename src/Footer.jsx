@@ -5,7 +5,9 @@ const Footer = () => {
     const year = date.getFullYear();
     return (
         <div className="w-full max-w-screen-xl mx-auto md:px-8 mt-20 justify-center flex">
-            <div className="border-t border-1 w-full text-center p-4">Tous droits réservés © {year} Cherley JOACHIM</div>
+            <div className="border-t border-1 w-full text-center p-4 text-sm">
+                Tous droits réservés © {year} <br /> Cherley JOACHIM
+            </div>
         </div>
     );
 };

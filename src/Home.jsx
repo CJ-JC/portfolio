@@ -32,14 +32,14 @@ const Home = ({ theme }) => {
     return (
         <div className="w-full max-w-screen-xl mx-auto md:px-8 p-4 mt-20">
             {/* Home */}
-            <div id="home" className="space-y-6 my-5 py-10 md:py-16 lg:py-20 text-default max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4">
+            <div id="home" className="space-y-6 md:my-5 md:py-16 lg:py-20 text-default max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-4">
                 <div className="space-y-6 order-2 md:order-1 mt-4">
-                    <h1 className="text-5xl font-bold">Cherley JOACHIM</h1>
+                    <h1 className="text-4xl font-bold">Cherley JOACHIM</h1>
                     <div className="relative max-w-max">
-                        <p className="text-3xl z-10 relative max-w-max">
+                        <h3 className="text-3xl z-10 relative max-w-max">
                             Développeur Full-Stack
                             <span className={`w-full h-3 -z-10 -rotate-6 absolute top-4 ${backgroundText} block`}></span>
-                        </p>
+                        </h3>
                     </div>
                     <p>Fraichement diplômé d'Architect Web à F2I, je suis à la recherche d'une nouvelle aventure professionnelle.</p>
                     <div className="mx-auto flex gap-3 flex-col lg:flex-row">
@@ -86,7 +86,7 @@ const Home = ({ theme }) => {
             </div>
 
             {/* Stacks */}
-            <div id="stacks" className="space-y-6 my-8 py-10 md:py-16 lg:py-20 max-w-7xl mx-auto">
+            <div id="stacks" className="space-y-6 md:my-8 md:py-16 lg:py-20 max-w-7xl mx-auto">
                 <h2 className="text-3xl font-extrabold relative max-w-max">
                     Mes Compétences
                     <span className={`w-full h-1 absolute top-9 ${backgroundText} block`}></span>
@@ -164,7 +164,7 @@ const Home = ({ theme }) => {
                 </h2>
                 <p>Découvrez une sélection de projets marquants que j'ai eu l'occasion de mener à bien, alliant créativité et expertise technique.</p>
 
-                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-2 2xl:grid-cols-4 gap-8">
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 gap-8">
                     <a href="/digital-discount" className="hover:-translate-y-1 hover:scale-110 ease-in-out border-1 duration-300 px-2">
                         <article className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl pt-30 min-h-72 max-w-sm mx-auto">
                             <img className="absolute inset-0 h-full w-full object-cover" src={digital} alt="digital-discount" />
